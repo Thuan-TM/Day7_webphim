@@ -25,7 +25,7 @@ function addJS() {
 function render(data) {
     data.forEach(e => {
         const item = document.createElement("div");
-        item.className = 'col-sm-4 col-md-3'
+        item.className = 'col-xs-6 col-sm-4 col-md-3'
         item.innerHTML = `
                 <a href="./detail.html">
                     <div class="item" value="${e.id}">
