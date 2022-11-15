@@ -15,7 +15,7 @@ body {
     background-color: var(--one_backgound);
 
 }
-a {
+a,a:hover {
     text-decoration: none;
     color: white;
 }
